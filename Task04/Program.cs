@@ -8,8 +8,19 @@ int number2 = int.Parse(Console.ReadLine()!);
 Console.Write("Введите третье число с = ");
 int number3 = int.Parse(Console.ReadLine()!);
 
-int max = number1;
-
-if (number2 > number1)
+if (number1 > number2)
 {
+   if (number2 > number3)
+   {
+      Console.Write ($"Из введенных вами чисел наибольшим является число {number1}");
+   }
+}
+else
+{
+   if (number1 > number3)
+      {
+        if (number3 > number2)
+        {
+          Console.Write ($"Из введенных вами чисел наибольшим является число {number1}");
+        }
     
