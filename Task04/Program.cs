@@ -15,12 +15,11 @@ if (number1 > number2)
       Console.Write ($"Из введенных вами чисел наибольшим является число {number1}");
    }
 }
-else
+else if (number1 > number3)
 {
-   if (number1 > number3)
-      {
-        if (number3 > number2)
-        {
-          Console.Write ($"Из введенных вами чисел наибольшим является число {number1}");
-        }
+  if (number3 > number2)
+  {
+    Console.Write ($"Из введенных вами чисел наибольшим является число {number1}");
+  }
+}
     
